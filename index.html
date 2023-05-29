@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bookshelf Apps</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="head_bar">
+      
+      <h1 class="headBarTitle">Bookshelf Apps</h1>
+      <p>Buat daftar bukumu jadi lebih tertata</p>
+    </header>
+    <main>
+        <div class="inputContainer">
+            <h2>Masukkan Buku Baru</h2>
+            <form id="inputBook">
+                <div class="input input1">
+                  <label for="inputBookTitle">Judul :</label>
+                  <input id="inputBookTitle" type="text" required>
+                </div>
+                <div class="input input2">
+                  <label for="inputBookAuthor">Penulis :</label>
+                  <input id="inputBookAuthor" type="text" required>
+                </div>
+                <div class="input input3">
+                  <label for="inputBookYear">Tahun :</label>
+                  <input id="inputBookYear" type="number" required>
+                </div>
+                <div class="clear"></div>
+                <button id="bookSubmit" type="submit">Tambahkan</button>
+            </form>
+        </div>
+        <div class="bookshelf" id="belumSelesai">
+            <h2>Belum selesai dibaca</h2>
+            <div id="incompleteBookshelfList" class="book_list"></div>
+        </div>
+        <div class="bookshelf" id="selesai">
+            <h2>Selesai dibaca</h2>
+            <div id="completeBookshelfList" class="book_list"></div>
+        </div>
+        <div class="clear2"></div>
+    </main>
+    <footer>
+        <p>Bookshelf Apps | Fatma Zahro</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="dist/sweetalert2.all.min.js"></script>
+</body>
+</html>

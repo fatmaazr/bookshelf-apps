@@ -1,0 +1,235 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head_bar {
+    height: 40vh;
+    text-align: center;
+    padding-top: 25px;
+    background-color: #dbfec3;
+}
+
+h1 {
+    margin-top: 80px;
+    word-spacing: 10pt;
+    letter-spacing: 5pt;
+    font-size: 50px;
+    color: #1f3015;
+}
+
+.head_bar > p {
+    padding-top: 20px;
+    word-spacing: 5pt;
+    color: #5b8344;
+}
+
+.searchSection {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 3%;
+}
+
+.searchSection > form {
+    display: grid;
+    grid-template-columns: auto 1fr 0.5fr;
+    grid-gap: 10px;
+}
+
+.searchSection > form > input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#searchBookTitle {
+    width: 85vw;
+}
+
+.searchSection > form > label {
+    background: linear-gradient(45deg, #b7fe87, #f4ff5d);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main {
+    margin: 30px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border: 1px solid #80817f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.inputContainer > h2 {
+    text-align: center;
+    color: #1f3015;
+    padding: 15px 0;
+}
+
+.input {
+    margin: 30px 0;
+    display: inline-block;
+    width: 30%;
+}
+
+.inputContainer > form > button {
+    background-color: #1f3015;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 10%;
+    padding: 13px;
+    cursor: pointer;
+    margin: 0 45%;
+}
+
+#inputBook > .input > input {
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    width: 25vw;
+}
+
+#inputBook {
+    margin: 10px 5%;
+}
+
+.input1 {
+    float: left;
+    margin-right: 5%;
+}
+
+.input2 {
+    float: left;
+    margin-right: 5%;
+}
+
+.input3 {
+    float: left; 
+}
+
+.clear {
+    clear: left;
+}
+
+label {
+    font-size: 18px;
+}
+
+#bookSubmit:active {
+    position: relative;
+    top: 5px;
+    box-shadow: 0 7px #000;
+}
+
+.bookshelf {
+    margin: 30px 0 0 0;
+    border: 1px solid #80817f;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 47vw;
+    display: inline-block;
+}
+
+.bookshelf > h2 {
+    color: #1f3015;
+}
+
+.bookshelf > .book_list {
+    padding: 16px;
+}
+
+#selesai {
+    float: right;
+}
+
+footer {
+    padding: 15px 0;
+    background-color: #dbfec3;
+    text-align: center;
+    color: #1f3015;
+    letter-spacing: 5pt;
+    word-spacing: 10pt;
+    font-size: 12px;
+}
+
+.check-button {
+    width: 25px;
+    height: 25px;
+
+    background: url('../assets/check-outline.svg');
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.check-button:hover {
+    background: url('../assets/check-solid.svg');
+    background-size: contain;
+}
+
+.trash-button {
+    width: 25px;
+    height: 25px;
+
+    background: url('../assets/trash-outline.svg');
+    background-size: contain;
+    margin-left: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.trash-button:hover {
+    background: url('../assets/trash-fill.svg');
+    background-size: contain;
+}
+
+.undo-button {
+    width: 25px;
+    height: 25px;
+
+    background: url('../assets/undo-ouline.svg');
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.undo-button:hover {
+    background: url('../assets/undo-ouline.svg');
+    background-size: contain;
+}
+
+.check-button:focus, .trash-button {
+    outline: none;
+}
+
+.container {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.undo-button, .trash-button, .check-button {
+    margin: 20px 0 20px 20px;
+}
+
+.clear2 {
+    clear: right;
+}
+
+.bookItem {
+    padding: 20px 20px 0 20px;
+}
