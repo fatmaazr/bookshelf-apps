@@ -138,7 +138,7 @@ footer {
     width: 25px;
     height: 25px;
 
-    background: url('../assets/check-outline.svg');
+    background: url('assets/check-outline.svg');
     background-size: contain;
     margin-left: auto;
     cursor: pointer;
@@ -146,7 +146,7 @@ footer {
 }
 
 .check-button:hover {
-    background: url('../assets/check-solid.svg');
+    background: url('assets/check-solid.svg');
     background-size: contain;
 }
 
@@ -154,7 +154,7 @@ footer {
     width: 25px;
     height: 25px;
 
-    background: url('../assets/trash-outline.svg');
+    background: url('assets/trash-outline.svg');
     background-size: contain;
     margin-left: 16px;
     cursor: pointer;
@@ -162,7 +162,7 @@ footer {
 }
 
 .trash-button:hover {
-    background: url('../assets/trash-fill.svg');
+    background: url('assets/trash-fill.svg');
     background-size: contain;
 }
 
@@ -170,7 +170,7 @@ footer {
     width: 25px;
     height: 25px;
 
-    background: url('../assets/undo-ouline.svg');
+    background: url('assets/undo-ouline.svg');
     background-size: contain;
     margin-left: auto;
     cursor: pointer;
@@ -178,7 +178,7 @@ footer {
 }
 
 .undo-button:hover {
-    background: url('../assets/undo-ouline.svg');
+    background: url('assets/undo-ouline.svg');
     background-size: contain;
 }
 
