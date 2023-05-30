@@ -26,34 +26,6 @@ h1 {
     color: #5b8344;
 }
 
-.searchSection {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding-left: 3%;
-}
-
-.searchSection > form {
-    display: grid;
-    grid-template-columns: auto 1fr 0.5fr;
-    grid-gap: 10px;
-}
-
-.searchSection > form > input {
-    padding: 10px;
-    border-radius: 5px;
-}
-
-#searchBookTitle {
-    width: 85vw;
-}
-
-.searchSection > form > label {
-    background: linear-gradient(45deg, #b7fe87, #f4ff5d);
-    padding: 5px;
-    border-radius: 5px;
-}
-
 main {
     margin: 30px;
 }
