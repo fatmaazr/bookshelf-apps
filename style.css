@@ -205,3 +205,39 @@ footer {
 .bookItem {
     padding: 20px 20px 0 20px;
 }
+
+@media screen and (max-width: 767px) {
+    #bookSubmit {
+        margin: 0 30vh;
+        width: 25vh;
+    }
+
+    .bookshelf {
+        width: 45vh;
+    }
+}
+
+@media screen and (max-width: 481px) {
+    .bookshelf {
+        float: none;
+        width: 99%;
+    }
+
+    h1{
+        margin-top: 20px;
+    }
+
+    .input {
+        display: block;
+        float: none;
+    }
+    
+    #bookSubmit {
+        margin: 0 25%;
+    }
+
+    #inputBook > .input > input {
+        width: 50vh;
+    }
+
+}
