@@ -217,6 +217,31 @@ footer {
     }
 }
 
+@media screen and (max-width: 567px) {
+    h1 {
+        margin-top: 20px;
+    }
+
+    .bookshelf {
+        float: none;
+        width: 99%;
+    }
+
+    .input {
+        display: block;
+        float: none;
+    }
+
+    #bookSubmit {
+        margin: 0;
+    }
+
+    #inputBook > .input > input {
+        margin: 0;
+        width: 60vh; 
+    }
+}
+
 @media screen and (max-width: 481px) {
     .bookshelf {
         float: none;
@@ -237,7 +262,13 @@ footer {
     }
 
     #inputBook > .input > input {
-        width: 50vh;
+        margin: 0;
+        width: 50vh; 
     }
+}
 
+@media screen and (max-width: 380px) {
+    #inputBook > .input > input {
+        width: 40vh; 
+    }
 }
