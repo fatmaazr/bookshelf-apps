@@ -267,7 +267,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 320px) {
     #inputBook > .input > input {
         width: 40vh; 
     }
